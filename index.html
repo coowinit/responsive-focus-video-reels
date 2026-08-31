@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>响应式焦点视频轮播</title>
+  <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="section01">
+    <div class="head">
+      <h2>产品灵感短片</h2>
+      <p>通过短视频快速了解不同产品体系与真实应用场景，滑动即可切换当前焦点内容。</p>
+    </div>
+
+    <div class="swiper reels">
+      <div class="swiper-wrapper">
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-01.webp">
+              <source src="videos/video-01.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看户外地板产品">
+              <img src="images/thumb-01.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">户外地板 · 木纹系列</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-02.webp">
+              <source src="videos/video-02.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看墙板产品">
+              <img src="images/thumb-02.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">墙板 · 立面系统</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-03.webp">
+              <source src="videos/video-03.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看栅栏产品">
+              <img src="images/thumb-03.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">栅栏 · 私家庭院</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-04.webp">
+              <source src="videos/video-04.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看护栏产品">
+              <img src="images/thumb-04.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">护栏 · 露台系统</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-05.webp">
+              <source src="videos/video-05.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看户外家具产品">
+              <img src="images/thumb-05.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">户外家具 · 休闲空间</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-06.webp">
+              <source src="videos/video-06.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看铝木方通产品">
+              <img src="images/thumb-06.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">铝木方通 · 建筑立面</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-07.webp">
+              <source src="videos/video-07.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看型材产品">
+              <img src="images/thumb-07.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">型材 · 结构系统</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-08.webp">
+              <source src="videos/video-08.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看铝木方通产品">
+              <img src="images/thumb-08.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">铝木方通 · 景观格栅</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="swiper-slide item">
+          <div class="media">
+            <video class="video" muted loop playsinline webkit-playsinline preload="metadata" poster="images/poster-09.webp">
+              <source src="videos/video-09.mp4" type="video/mp4">
+            </video>
+            <div class="bar"><span></span></div>
+            <div class="ctrl">
+              <button class="play" type="button" aria-label="播放或暂停视频" data-state="paused">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+              </button>
+              <button class="mute" type="button" aria-label="静音或取消静音" data-state="muted">
+                <svg class="icon-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm11.5 0a4 4 0 0 1 0 6l1.5 1.5a6 6 0 0 0 0-9L15.5 9z"/></svg>
+                <svg class="icon-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.2.8-1.4 1.4 2 2-2 2 1.4 1.4 2-2 2 2 1.4-1.4-2-2 2-2-1.4-1.4-2 2-2-2z"/></svg>
+              </button>
+            </div>
+            <a class="info" href="#" aria-label="查看户外空间解决方案">
+              <img src="images/thumb-09.webp" alt="" class="thumb">
+              <span class="text"><strong class="title">户外空间 · 综合方案</strong><small class="desc">查看产品详情</small></span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <button class="prev" type="button" aria-label="上一张">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 5.6 9 12l6.4 6.4-1.4 1.4L6.2 12 14 4.2z"/></svg>
+      </button>
+      <button class="next" type="button" aria-label="下一张">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.6 18.4 6.4-6.4-6.4-6.4L10 4.2l7.8 7.8-7.8 7.8z"/></svg>
+      </button>
+      <div class="pages"></div>
+    </div>
+  </section>
+
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
